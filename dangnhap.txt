@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Đăng Nhập"
+        android:textColor="@android:color/background_light"
+        android:textSize="35dp"
+        />
+    <EditText
+        android:id="@+id/txtTenDangNhap"
+        android:layout_width="222dp"
+        android:layout_marginTop="60px"
+        android:layout_height="37dp"
+        android:drawableLeft="@drawable/ic_person_pin_black_18dp"
+        android:background="@android:color/background_light"
+        android:hint="Tên Đăng Nhập" />
+    <EditText
+        android:id="@+id/txtMatKhau"
+        android:hint="Mật Khẩu"
+        android:layout_height="37dp"
+        android:layout_width="222dp"
+        android:layout_marginTop="35px"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/ic_vpn_key_black_18dp"
+        android:inputType="textPassword" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:text="Đăng Nhập"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnThoat"
+            android:text="Thoát"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
